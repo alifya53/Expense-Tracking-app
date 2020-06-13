@@ -9,7 +9,9 @@
 }
 
 body {
-  background-color: #9af7b6;
+  border: 20px solid #0a0a0a;
+  border-radius: 5px;
+  background-color: #85e4e7;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,8 +20,24 @@ body {
   margin: 0;
   font-family: 'Lato', sans-serif;
 }
+img{
+  border: 2px solid #0d0222;
+  border-radius: 2px;
+  max-width: 10%;
+  max-height: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .container {
+ 
   margin: 30px auto;
   width: 350px;
 }
@@ -27,21 +45,29 @@ body {
 h1 {
   letter-spacing: 1px;
   margin: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(46, 11, 78);
 }
 
 h3 {
-  border-bottom: 1px solid rgb(105, 93, 23);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(44, 11, 75);
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid rgb(105, 93, 23);
   padding-bottom: 10px;
   margin: 40px 0 10px;
 }
 
 h4 {
   margin: 0;
+  color: rgb(28, 10, 41);
+  text-align: center;
   text-transform: uppercase;
 }
 
 .inc-exp-container {
-  border: 2px solid #f79880;
+  border: 2px solid #090225;
   border-radius: 2px;
   background-color: #fff;
   box-shadow: var(--box-shadow);
@@ -58,7 +84,7 @@ h4 {
 }
 
 .inc-exp-container > div:first-of-type {
-  border-right: 1px solid #dedede;
+  border-right: 1px solid #040935;
 }
 
 .money {
@@ -83,7 +109,7 @@ label {
 
 input[type='text'],
 input[type='number'] {
-  border: 2px solid #f79880;
+  border: 2px solid #090225;
   border-radius: 2px;
   display: block;
   font-size: 16px;
@@ -93,7 +119,7 @@ input[type='number'] {
 
 .btn {
   cursor: pointer;
-  background-color: #032e23;
+  background-color: #0b0330;
   box-shadow: var(--box-shadow);
   color: #fff;
   border: 0;
@@ -129,13 +155,13 @@ input[type='number'] {
 
 .list li.plus {
   border-right: 5px solid #2ecc71;
-  border: 2px solid #f79880;
+  border: 2px solid #090225;
   border-radius: 2px;
 }
 
 .list li.minus {
   border-right: 5px solid #c0392b;
-  border: 2px solid #f79880;
+  border: 2px solid #090225;
   border-radius: 2px;
 }
 
